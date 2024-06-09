@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="heading">heading</string>
+    <string name="Name">Name</string>
+    <string name="enteryourname">enter your name</string>
+    <string name="Collage">Collage</string>
+    <string name="entercollagename">enter collage name</string>
+    <string name="Contact">Contact</string>
+    <string name="entercontact">enter contact</string>
+    <string name="email">e-mail</string>
+    <string name="enteremail">enter e-mail</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="Save">Save</string>
+    <string name="are_you_studying">Are you studying</string>
+    <string name="enter_your_study_feild">enter your study feild</string>
+    <string name="study_feild">study feild</string>
 </resources>
