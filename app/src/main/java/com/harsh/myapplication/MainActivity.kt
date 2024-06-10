@@ -46,8 +46,6 @@ class MainActivity : AppCompatActivity() {
 
 
         Button?.setOnClickListener {
-
-
             if (etPhoneNumber?.text.toString().trim().isNullOrEmpty()) {
                 etPhoneNumber?.error = "enter your number"
                 valid = false
@@ -67,11 +65,10 @@ class MainActivity : AppCompatActivity() {
                 etEmail?.error = "enter your e mail"
                 valid = false
             }
-            if (valid) {
+            while (valid) {
                 Toast.makeText(this, "Details Entered Successfully", Toast.LENGTH_LONG).show()
-            } else {
-                Toast.makeText(this, "Invalid Submittion", Toast.LENGTH_LONG).show()
             }
+
 
         }
 
